@@ -23,7 +23,8 @@ This is a Read instruction ("R"). A Write Instruction is Prefixed with ("W"). Th
 **Output:** "2 1 5" (trace.txt.out)
 This means the CPU tried to Read from L1 but missed as there was no corresponding Tag to the address. However, there was a HIT in L2 and eviction from both L1 and L2 was required to place the newly Read Data - (215). The image below shows different possibilities.
 
- ![image](https://github.com/srxdhxr/Cache-Simulator-for-L1-L2-Memory-Hierarchy/assets/69622712/3ed74cf2-93c7-4682-8fee-942cd3d07d54)
+![image](https://github.com/srxdhxr/Cache-Simulator-for-L1-L2-Memory-Hierarchy/assets/69622712/3d1e5012-4809-44d2-a661-4d620eb2fe8d)
+
 
 
 **Experiment:** Modify the cache configurations in the code, try different trace files, and observe how cache parameters impact system performance. Use the sample output files as references.
